@@ -217,7 +217,7 @@ func (c *Client) SearchContacts(query string, limit int) (*ContactResponse, erro
 
 	// Parse query - if it contains "=", treat as property=value, otherwise search in common fields
 	var filterGroups []map[string]interface{}
-	
+
 	if strings.Contains(query, "=") {
 		// Property-based search
 		parts := strings.SplitN(query, "=", 2)
@@ -287,4 +287,3 @@ func (c *Client) ListProperties() ([]Property, error) {
 
 	return propsResp.Results, nil
 }
-
