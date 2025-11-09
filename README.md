@@ -1,6 +1,29 @@
 # HSCTL
 
+<div align="center">
+
+![Build Status](https://img.shields.io/github/actions/workflow/status/obay/hsctl/test.yml?branch=main&label=build&logo=github&logoColor=white)
+![Release](https://img.shields.io/github/v/release/obay/hsctl?label=release&logo=github&logoColor=white&sort=semver)
+![Downloads](https://img.shields.io/github/downloads/obay/hsctl/total?label=downloads&logo=github&logoColor=white)
+![Go Version](https://img.shields.io/github/go-mod/go-version/obay/hsctl?logo=go&logoColor=white)
+![License](https://img.shields.io/github/license/obay/hsctl?label=license&logo=github&logoColor=white)
+![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macos%20%7C%20windows-lightgrey?logo=github&logoColor=white)
+![Go Report Card](https://goreportcard.com/badge/github.com/obay/hsctl)
+![Code Size](https://img.shields.io/github/languages/code-size/obay/hsctl?logo=github&logoColor=white)
+![Contributors](https://img.shields.io/github/contributors/obay/hsctl?logo=github&logoColor=white)
+![Last Commit](https://img.shields.io/github/last-commit/obay/hsctl/main?logo=github&logoColor=white)
+![GitHub stars](https://img.shields.io/github/stars/obay/hsctl?style=social&logo=github)
+![GitHub forks](https://img.shields.io/github/forks/obay/hsctl?style=social&logo=github)
+
+[![Made with Go](https://img.shields.io/badge/Made%20with-Go-00ADD8?style=flat&logo=go&logoColor=white)](https://golang.org/)
+[![Powered by HubSpot](https://img.shields.io/badge/Powered%20by-HubSpot-FF7A59?style=flat&logo=hubspot&logoColor=white)](https://www.hubspot.com/)
+[![CLI Tool](https://img.shields.io/badge/CLI-Tool-4EC820?style=flat&logo=gnu-bash&logoColor=white)](https://github.com/obay/hsctl)
+
+</div>
+
 **HSCTL** is a powerful command-line interface (CLI) tool written in Go for managing HubSpot contacts. It provides a simple, efficient way to perform CRUD operations on your HubSpot contacts directly from your terminal, eliminating the need to navigate through the HubSpot web interface for routine contact management tasks.
+
+[Features](#benefits) • [Installation](#installation) • [Usage](#usage) • [Documentation](#command-reference) • [Contributing](#contributing)
 
 ## Why HSCTL Exists
 
