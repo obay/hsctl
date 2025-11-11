@@ -2,16 +2,13 @@ package cmd
 
 import (
 	"fmt"
-	"runtime"
 
 	"github.com/spf13/cobra"
 )
 
 var (
-	// These will be set by the build process using ldflags
-	version   = "dev"
-	commit    = "unknown"
-	buildDate = "unknown"
+	// This will be set by the build process using ldflags
+	version = "dev"
 )
 
 // versionCmd represents the version command
@@ -21,10 +18,6 @@ var versionCmd = &cobra.Command{
 	Long:  `Print the version number and build information of hscli.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Printf("hscli version %s\n", version)
-		fmt.Printf("Commit: %s\n", commit)
-		fmt.Printf("Build Date: %s\n", buildDate)
-		fmt.Printf("Go Version: %s\n", runtime.Version())
-		fmt.Printf("Platform: %s/%s\n", runtime.GOOS, runtime.GOARCH)
 	},
 }
 
